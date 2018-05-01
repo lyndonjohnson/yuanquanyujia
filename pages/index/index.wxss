@@ -1,0 +1,13 @@
+button{
+  width:94%;
+  height:164px;
+  background-size: 100% 100%;
+}
+
+.wmt{
+  background-color:grey;
+  width:50%;
+  height:50px;
+  position:relative;
+  z-index:9999
+}

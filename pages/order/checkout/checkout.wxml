@@ -1,0 +1,16 @@
+
+<view>
+ 
+  <view style="margin-top:10px;margin-left:2%">
+    <a>购买培训课程:</a>
+  </view>
+
+  
+
+   <view style="margin-top:10px;margin-bottom:10px;color:red;margin-left:2%">
+    <a>实付款:{{price}}</a>
+  </view>
+
+  <button style="background-color:#ACD6FF;color:white" bindtap="wxpay">立即支付</button>
+
+</view>
