@@ -1,6 +1,0 @@
-<view>
-  
-  <button style="background-color:#ACD6F;color:#2894FF;font-size:16px"> {{jieshao.message}} </button>
-
-   
-</view>
