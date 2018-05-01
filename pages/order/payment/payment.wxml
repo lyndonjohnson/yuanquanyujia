@@ -1,0 +1,6 @@
+<button type="primary" bindtap="pay">请点击二维码支付{{account}}</button>
+
+<view style="margin-top:34px;text-align:center">
+ <image src="/images/zhuang8.jpg" style="height:444px"/>
+</view>
+

@@ -1,0 +1,54 @@
+<view>
+
+  <swiper style="height:268px" indicator-dots="{{indicatorDots}}"  
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">  
+      <block wx:for="{{xlunbo}}">  
+        <swiper-item>  
+           <navigator  hover-class="navigator-hover">
+        
+            <image src="{{item.imageurl}}" class="slide-image" style="width:100%;height:244px"/>  
+         
+           </navigator>   
+        </swiper-item>  
+      </block>  
+</swiper>  
+
+  </view>
+
+
+<view style="margin-top:24px;text-align:center">
+
+    <view style="margin-top:24px;text-align:center">
+
+ <view style="margin-bottom:24px" class="moto-container" bindtap="onTap">
+      <button style="background-color:#ACD6FF;font-size:16px">元泉瑜伽介绍</button>
+    </view>   
+  
+    
+<view style="margin-bottom:24px" class="moto-container" bindtap="onBuy">
+    <button style="background-color:	#ACD6FF;font-size:16px">购买元泉瑜伽培训课程</button>
+    </view>    
+ 
+   <button class="page-body-button" type="primary" bindtap="getLocation" >获取位置</button>
+
+  <text class="page-body-form-key" style="margin-top:14px;text-align:left">当前位置：{{longitude}}</text>
+ 
+</view>
+
+  <view>
+    
+      <block wx:for="{{xjieshao}}">  
+
+ <button style="margin-top:22px;background-color:#ACD6FF;font-size:16px">{{item.message}} </button>
+
+   </block>
+
+   </view>
+
+
+ 
+
+
+</view>
+
+

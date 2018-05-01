@@ -1,0 +1,14 @@
+
+
+<view>
+
+ <view class="moto-container" bindtap="onTap">
+      <text class="moto">元泉瑜伽介绍</text>
+    </view>    
+    
+<view class="moto-container" bindtap="onBuy">
+      <text class="moto">教练认证培训课程购买</text>
+    </view>     
+
+
+</view>
